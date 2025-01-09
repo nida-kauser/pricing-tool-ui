@@ -1,0 +1,71 @@
+/* AddProductModal.css */
+
+/* Modal Header */
+.modal-header {
+  background-color: #000;
+  color: lightgreen;
+  border-bottom: none;
+}
+
+/* Modal Title */
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Form Labels */
+.form-label {
+  color: #fff;
+}
+
+/* Form Controls */
+.form-control {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+/* Form Controls Placeholder */
+.form-control::placeholder {
+  color: #888;
+}
+
+/* Cancel Button */
+.cancel-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+/* Add Button */
+.add-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+/* Dark modal styles */
+.dark-modal .modal-content {
+  background-color: #343a40; /* Bootstrap dark background color */
+  color: white;
+  border-radius: 8px; /* Optional: Rounded corners */
+  border: none; /* Remove border */
+}
+
+/* Ensure header and body text are consistent */
+.dark-modal .modal-header {
+  border-bottom: 1px solid #495057; /* Subtle border for separation */
+}
+
+.dark-modal .modal-body {
+  color: white;
+}
+
+/* Close button styles */
+.dark-modal .btn-close {
+  filter: invert(1); /* Make the close button visible on dark background */
+}

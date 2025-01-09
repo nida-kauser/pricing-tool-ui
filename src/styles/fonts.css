@@ -1,0 +1,28 @@
+.fs-24 {
+  font-size: 24px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-34 {
+  font-size: 34px;
+}
+.fs-40 {
+  font-size: 40;
+}
+.fs-50 {
+  font-size: 50;
+}
+
+.fw-bold {
+  font-weight: 800;
+}
+.fw-semibold {
+  font-weight: 600;
+}
+.fw-medium {
+  font-weight: 400;
+}
